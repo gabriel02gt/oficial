@@ -1,0 +1,55 @@
+/* Resetando margens e preenchimento padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilos para o container centralizado */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+/* Estilos para o conteúdo principal */
+.main-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para os títulos */
+h1, h2 {
+    color: #333;
+}
+
+/* Estilos para a imagem */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
